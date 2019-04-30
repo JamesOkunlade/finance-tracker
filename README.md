@@ -1,24 +1,22 @@
-# README
+# finance-tracker
+A finance tracker rails project.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Author
+James Okunlade
 
-Things you may want to cover:
+## Technologies
+Ruby
 
-* Ruby version
+## Framework
+Ruby on Rails
 
-* System dependencies
+## Installation
+> Open your git bash and **cd** to the location you'd like to put your files the run the command below.
 
-* Configuration
+`git clone https://github.com/JamesOkunlade/finance-tracker`
 
-* Database creation
+**cd** to into the project folder and install using `bundle install --withoutproduction`
 
-* Database initialization
+`rails db:migrate`
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To start the server: `rails server`
